@@ -1,0 +1,23 @@
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1c66b1;
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    padding-left: 0;
+  }
+  
+  .sidebar .nav-link {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .sidebar .nav-link:hover {
+    color: #007bff;
+  }
+  
