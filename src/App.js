@@ -1,12 +1,16 @@
 import React from 'react';
-import Sidebar from './components/Sidebar/Sidebar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import DefaultCard from './components/DefaultCard/DefaultCard';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Sidebar />
+    <div className="container">
+      <DefaultCard
+        imagen={require('./assets/img/img-card.jpg')}
+        titulo={'TITULO 1'}
+      />
     </div>
   );
-}
+};
 
 export default App;
