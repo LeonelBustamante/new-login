@@ -1,10 +1,12 @@
 import React from 'react';
-import Sidebar from './components/Sidebar/Sidebar';
-
+import Menu from './components/Sidebar/Menu';
+import HomePage from './components/Pages/HomePage';
+import './App.css'
 function App() {
   return (
-    <div className="App">
-      <Sidebar />
+    <div className="App content">
+      <Menu />
+      <HomePage />
     </div>
   );
 }
