@@ -1,15 +1,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DefaultCard from './components/DefaultCard/DefaultCard';
+import { Container, Row, Col } from 'react-bootstrap';
+import DefaultCardGroup from './components/DefaultCardGroup/DefaultCardGroup';
 
 const App = () => {
   return (
-    <div className="container">
-      <DefaultCard
-        imagen={require('./assets/img/img-card.jpg')}
-        titulo={'TITULO 1'}
-      />
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          <DefaultCardGroup />
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

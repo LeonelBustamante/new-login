@@ -1,0 +1,11 @@
+.custom-card-group {
+  margin-top: 20px;
+}
+
+.custom-card-group-item {
+  padding: 10px;
+}
+
+.custom-card-group-item:hover {
+  transform: translateY(-5px);
+}
