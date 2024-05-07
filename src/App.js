@@ -1,12 +1,16 @@
-import "./App.css";
-import DefaultCard from "./components/DefaultCard/DefaultCard";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import DefaultCard from './components/DefaultCard/DefaultCard';
 
-function App() {
-	return (
-		<>
-			<DefaultCard imagen={""} titulo={"TITULO 1"} descripcion={"DESCRIPCION 1"} link={"#"} />
-		</>
-	);
-}
+const App = () => {
+  return (
+    <div className="container">
+      <DefaultCard
+        imagen={require('./assets/img/img-card.jpg')}
+        titulo={'TITULO 1'}
+      />
+    </div>
+  );
+};
 
 export default App;
