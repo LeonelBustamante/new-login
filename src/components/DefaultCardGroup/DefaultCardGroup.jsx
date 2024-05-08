@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import DefaultCard from "../DefaultCard/DefaultCard";
-import "./DefaultCardGroup.css";
+import "./style.css";
 
 const DefaultCardGroup = () => {
   return (

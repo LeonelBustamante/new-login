@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import "./DefaultCard.css";
+import "./style.css";
 
 const DefaultCard = ({ imagen, titulo }) => {
   return (
