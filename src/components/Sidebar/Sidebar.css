@@ -6,20 +6,20 @@
     padding-top: 20px;
     border-radius: 10px;
   }
-  
+
   .sidebar ul {
     padding-left: 0;
   }
-  
+
   .sidebar .nav-link {
     color: #ffff;
     font-weight: bold;
   }
-  
+
   .nav-link:hover {
     color: #007bff;
   }
-  
+
   .mobil{
     width: 4.5rem;
   }

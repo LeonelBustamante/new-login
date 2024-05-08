@@ -40,7 +40,7 @@ const Sidebar = () => {
       <div className="dropdown">
         <a href="#" className="d-flex align-items-center text-white text-decoration-none">
         <img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" className="rounded-circle" />
-           Nombre 
+           Nombre
         </a>
       </div>
     </div>
