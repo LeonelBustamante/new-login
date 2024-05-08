@@ -1,18 +1,13 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'react-bootstrap';
-import DefaultCardGroup from './components/DefaultCardGroup/DefaultCardGroup';
+import React from "react";
+import Menu from "./components/Sidebar/Menu";
+import "./App.css";
 
-const App = () => {
-  return (
-    <Container>
-      <Row>
-        <Col>
-          <DefaultCardGroup />
-        </Col>
-      </Row>
-    </Container>
-  );
-};
+function App() {
+	return (
+		<div className="App content">
+			<Menu />
+		</div>
+	);
+}
 
 export default App;
