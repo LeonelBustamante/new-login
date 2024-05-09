@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import Sidebar from "./Sidebar";
-import SidebarMobile from "./SidebarMobil";
-import "./style.css";
+import React, { useState, useEffect } from 'react';
+import Sidebar from './Sidebar';
+import SidebarMobile from './SidebarMobil';
+import './Sidebar.css'; 
 
 const Menu = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 920);
@@ -11,9 +11,9 @@ const Menu = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 

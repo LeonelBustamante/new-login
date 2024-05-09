@@ -6,14 +6,16 @@ import { Col, Row } from 'react-bootstrap';
 
 function App() {
   return (
-    <Row>
-      <Col sm={1} md={1} lg={2}>
-        <Menu />
-      </Col>
-      <Col sm={11} md={11} lg={10}>
-        <Dashboard />
-      </Col>
-    </Row>
+    <div className='App'>
+      <Row>
+        <Col sm={1} md={1} lg={2}>
+          <Menu />
+        </Col>
+        <Col sm={11} md={11} lg={10} className='mt-5'>
+          <Dashboard />
+        </Col>
+      </Row>
+    </div>
   );
 }
 

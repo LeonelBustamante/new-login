@@ -1,11 +1,11 @@
 import React from "react";
 
-const Typography = ({ size, weight, style, children }) => {
+const Typography = ({ size, weight, color, children }) => {
   const textStyle = {
     fontFamily: "Roboto, sans-serif",
     fontSize: size,
     fontWeight: weight,
-    ...style,
+    color: color,
   };
 
   return <span style={textStyle}>{children}</span>;

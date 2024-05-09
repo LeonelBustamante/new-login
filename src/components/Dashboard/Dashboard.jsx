@@ -6,7 +6,7 @@ import { Row } from "react-bootstrap";
 const Dashboard = () => {
   return (
     <Row>
-      <Typography size={"2em"} weight={"bold"}>
+      <Typography size={"2em"} weight={"bold"} color={"#2B3E4C"}>
         Directorio de aplicaciones
       </Typography>
       <DefaultCardGroup />
