@@ -4,7 +4,7 @@ import { HouseDoorFill, BookHalf, Star ,HourglassSplit, PersonFill} from 'react-
 import { Nav, Navbar} from 'react-bootstrap';
 const Sidebar = () => {
   return (
-    <Navbar className="sidebar d-flex flex-column flex-shrink-0 p-1" id='sidebar'>
+    <Navbar className="nav navbar d-flex flex-column p-1" id='sidebar'>
       <Navbar.Brand href="/" className="title-menu d-flex align-items-center mb-4">
         <BookHalf width="40" height="32"><use xlinkHref="#bootstrap"/></BookHalf>
         <span className="title fs-4">Directorio APP</span>
@@ -35,7 +35,7 @@ const Sidebar = () => {
           <Nav.Link href="#3">
             <PersonFill className="bi pe-none me-2" width="16" height="16" />
             Perfil
-          </Nav.Link>  
+          </Nav.Link>
         </Nav.Item>
       </Nav>
       <hr className='hr-menu'/>

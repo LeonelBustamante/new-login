@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from './components/Sidebar/Menu';
+import Sidebar from './components/Sidebar/Sidebar';
 import Dashboard from './components/Dashboard/Dashboard';
 import Footer from './components/Footer/Footer';
 import './App.css';
@@ -10,20 +10,18 @@ function App() {
     <div className='App'>
       <Row>
         {/* Sidebar */}
-        <Col sm={3} md={2} lg={2}>
-          <Menu />
+        <Col sm={12} md={12} lg={2}>
+          <Sidebar />
         </Col>
         {/* Dashboard */}
-        <Col sm={9} md={10} lg={10} className='mt-5'>
+        <Col sm={9} md={10} lg={9} className='mt-5'>
           <Dashboard />
         </Col>
-      </Row>
-      {/* Footer */}
-      <Row>
-        <Col>
+        <Col sm={9} md={10} lg={12}>
           <Footer />
         </Col>
       </Row>
+      {/* Footer */}
     </div>
   );
 }

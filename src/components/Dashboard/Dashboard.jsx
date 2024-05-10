@@ -11,6 +11,7 @@ const Dashboard = () => {
         Directorio de aplicaciones
       </Typography>
       <DefaultCardGroup />
+      <DefaultCardGroup />
     </Row>
   );
 };

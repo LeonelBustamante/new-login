@@ -10,10 +10,7 @@ const Footer = () => {
           <Col sm={6}>
             <img src={logo} alt="Descripción de la imagen" />
           </Col>
-          <Col sm={6} className='info-footer'>
-            <p>Dirección: 123 Calle Principal, Ciudad</p>
-            <p>Código Postal: 12345</p>
-          </Col>
+
           <Col className='der-footer' sm={12}>
             Todos los Derechos Reservados © 2024
           </Col>

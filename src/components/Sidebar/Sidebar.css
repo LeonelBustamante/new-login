@@ -1,13 +1,12 @@
-.sidebar {
-    min-height: 100%;
-    position: fixed;
+.navbar {
+  min-height: 100%;
     background-color: #2B3E4C;
     padding: 0;
   }
 
 .hr-menu{
   color: #87B867;
-}  
+}
 
 
   .title-sec{
