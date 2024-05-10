@@ -1,0 +1,17 @@
+.footer{
+    background-color: #2B3E4C;
+    color: #87B867;
+    padding: 20px 0 20px 0;
+}
+
+.der-footer{
+    border-top: 0.1em solid #F4DFB9;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.info-footer{
+    text-align: end;
+}

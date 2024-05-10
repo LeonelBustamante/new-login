@@ -1,50 +1,49 @@
 import React from 'react';
 import './Sidebar.css';
 import { HouseDoorFill, BookHalf, Star ,HourglassSplit, PersonFill} from 'react-bootstrap-icons';
+import { Nav, Navbar} from 'react-bootstrap';
 const Sidebar = () => {
   return (
-    <div className="sidebar d-flex flex-column flex-shrink-0 p-3" id='sidebar'>
-      <a href="/" className="title-menu d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-        <BookHalf  width="40" height="32"><use xlinkHref="#bootstrap"/></BookHalf>
-        <span className="fs-4">Directorio APP</span>
-      </a>
-      <hr />
-      <ul className="nav nav-pills flex-column mb-auto">
-        <li className="nav-item">
-          <a href="#" className="active nav-link" aria-current="page">
-          <HouseDoorFill  className="bi pe-none me-2" width="16" height="16" />
+    <Navbar className="sidebar d-flex flex-column flex-shrink-0 p-1" id='sidebar'>
+      <Navbar.Brand href="/" className="title-menu d-flex align-items-center mb-4">
+        <BookHalf width="40" height="32"><use xlinkHref="#bootstrap"/></BookHalf>
+        <span className="title fs-4">Directorio APP</span>
+      </Navbar.Brand>
+      <Nav className="flex-column mb-auto col-12">
+        <hr className='hr-menu'/>
+        <Nav.Item>
+        <Nav.Link href="#0">
+            <HouseDoorFill className="bi pe-none me-2" width="16" height="16" />
             Inicio
-          </a>
-        </li>
-        <li className="nav-item ">
-          <a href="#" className="nav-link">
-          <Star className="bi pe-none me-2" width="16" height="16" />
+          </Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="#1">
+            <Star className="bi pe-none me-2" width="16" height="16" />
             Favoritas
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link">
-          <HourglassSplit className="bi pe-none me-2" width="16" height="16" />
+          </Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="#2">
+            <HourglassSplit className="bi pe-none me-2" width="16" height="16" />
             Recientes
-          </a>
-        </li>
-        <hr />
+          </Nav.Link>
+        </Nav.Item>
+        <hr className='hr-menu'/>
         <h5 className='title-sec'>Usuario:</h5>
-        <li className="nav-item">
-          <a href="#" className="nav-link">
-          <PersonFill className="bi pe-none me-2" width="16" height="16" />
+        <Nav.Item>
+          <Nav.Link href="#3">
+            <PersonFill className="bi pe-none me-2" width="16" height="16" />
             Perfil
-          </a>  
-        </li>
-      </ul>
-      <hr />
-      <div className="dropdown">
-        <a href="#" className="d-flex align-items-center text-black text-decoration-none">
-        <img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" className="rounded-circle" />
-           Nombre
-        </a>
-      </div>
-    </div>
+          </Nav.Link>  
+        </Nav.Item>
+      </Nav>
+      <hr className='hr-menu'/>
+      <Nav.Link className='col-12'>
+        <img src="https://github.com/mdo.png" alt="mdo" width="35" height="35" className="rounded-circle m-2" />
+          Nombre
+      </Nav.Link>
+    </Navbar>
   );
 };
 

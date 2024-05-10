@@ -1,8 +1,14 @@
 .sidebar {
-    height: 100%;
+    min-height: 100%;
     position: fixed;
     background-color: #2B3E4C;
+    padding: 0;
   }
+
+.hr-menu{
+  color: #87B867;
+}  
+
 
   .title-sec{
     color: #88b867da;
@@ -10,28 +16,31 @@
 
 .title-menu{
   color: #87B867;
+  margin-top: 15%;
   }
-
+.title-menu:hover{
+  color: #F4DFB9;
+  margin-top: 15%;
+  }
   .sidebar ul h5 {
     text-align: left;
   }
 
-  .sidebar ul .nav-link {
+.nav-link{
     font-weight: bold;
     text-align: left;
-    color: #FFDDD2;
+    color: #F4DFB9;
     margin: 2px;
+    border-radius: 5px;
 
   }
 
-  .sidebar ul .nav-link.active {
-    background-color: #87B867;
-    color: #FCF2DC;
-  }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  background-color: #87B867;
+  color: #2B3E4C;
+}
 
-
-.nav-pills .nav-link:hover{
+.nav-link:hover{
   background-color: #F4DFB9;
   color: #2B3E4C;
 }
- 
