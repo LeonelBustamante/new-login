@@ -1,8 +1,17 @@
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .App {
  background-color: #ffffff;
   min-height: 100vh;
+  
+}
+
+.row{
+  --bs-gutter-x: 0;
 }
 
 

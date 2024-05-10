@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Container >
-        <Row>
+ 
           <Col sm={6}>
             <img src={logo} alt="Descripción de la imagen" />
           </Col>
@@ -14,7 +14,7 @@ const Footer = () => {
           <Col className='der-footer' sm={12}>
             Todos los Derechos Reservados © 2024
           </Col>
-        </Row>
+  
       </Container>
     </footer>
   );

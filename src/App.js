@@ -14,10 +14,10 @@ function App() {
           <Sidebar />
         </Col>
         {/* Dashboard */}
-        <Col sm={9} md={10} lg={9} className='mt-5'>
+        <Col sm={9} md={10} lg={10}>
           <Dashboard />
         </Col>
-        <Col sm={9} md={10} lg={12}>
+        <Col sm={12} md={12} lg={12}>
           <Footer />
         </Col>
       </Row>
