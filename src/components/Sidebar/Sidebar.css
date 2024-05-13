@@ -1,0 +1,45 @@
+.navbar {
+  min-height: 100%;
+    background-color: #2B3E4C;
+    padding: 0;
+  }
+
+.hr-menu{
+  color: #87B867;
+}
+
+
+  .title-sec{
+    color: #88b867da;
+  }
+
+.title-menu{
+  color: #87B867;
+  margin-top: 15%;
+  }
+.title-menu:hover{
+  color: #F4DFB9;
+  margin-top: 15%;
+  }
+  .sidebar ul h5 {
+    text-align: left;
+  }
+
+.nav-link{
+    font-weight: bold;
+    text-align: left;
+    color: #F4DFB9;
+    margin: 2px;
+    border-radius: 5px;
+
+  }
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  background-color: #87B867;
+  color: #2B3E4C;
+}
+
+.nav-link:hover{
+  background-color: #F4DFB9;
+  color: #2B3E4C;
+}
