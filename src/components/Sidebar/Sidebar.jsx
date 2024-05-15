@@ -1,7 +1,9 @@
+
 import React from 'react';
 import './Sidebar.css';
 import { BookHalf, Star ,HourglassSplit, PersonFill} from 'react-bootstrap-icons';
 import { Nav, Navbar} from 'react-bootstrap';
+
 const Sidebar = () => {
 
   return (
@@ -43,10 +45,16 @@ const Sidebar = () => {
           </Nav.Item>
           </Nav>  
       </Navbar.Collapse>
-      <hr className='hr-menu'/>
-      <Nav.Link className='col-12'>
-        <img src="https://github.com/mdo.png" alt="mdo" width="35" height="35" className="rounded-circle m-2" />
-          Nombre
+      <hr className="hr-menu" />
+      <Nav.Link className="col-12">
+        <img
+          src="https://github.com/mdo.png"
+          alt="mdo"
+          width="35"
+          height="35"
+          className="rounded-circle m-2"
+        />
+        Nombre
       </Nav.Link>
     </Navbar>
   );

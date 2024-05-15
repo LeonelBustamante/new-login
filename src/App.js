@@ -5,10 +5,12 @@ import Footer from './components/Footer/Footer';
 import Menu from './components/Navbar/NavBar';
 import './App.css';
 import { Col, Row } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Profile from './components/Profile/Profile';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Row>
         {/* Navbar */}
         <Menu></Menu>
@@ -17,8 +19,13 @@ function App() {
           <Sidebar />
         </Col>
         {/* Dashboard */}
-        <Col sm={9} md={10} lg={10}>
-          <Dashboard />
+        <Col sm={12} md={12} lg={10}>
+          <Router>
+            <Routes>
+              <Route path="/" Component={Dashboard} />
+              <Route path="/perfil" Component={Profile} />
+            </Routes>
+          </Router>
         </Col>
         <Col sm={12} md={12} lg={12}>
           <Footer />
